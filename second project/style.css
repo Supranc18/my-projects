@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: slateblue;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    height:100vh
+}
+.box{
+    display: flex;
+    gap: 10px;
+}
+.circle {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    animation: load 1.5s ease infinite;
+}
+.one{
+    animation-delay: 0.4s;
+}
+.two{
+    animation-delay: 0.8s;
+}
+.three{
+    animation-delay: 1.2s;
+}
+@keyframes load{
+    0%{
+        width: 30px;
+        height: 30px;
+    }
+    50%{
+        width: 20px;
+        height: 20px;
+        background-color: gray;
+    }
+    80%{
+        width: 10px;
+        height: 10px;
+        background-color: black;
+    }
+}
