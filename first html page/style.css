@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif ;
+    
+}
+.containar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+}
+.vdo{
+    width: 100%;
+   height: 100vh;
+    position: relative;
+}
+.box{
+    position: absolute;
+    text-align: center;
+    
+}
+.box h1{
+    font-size: 180px;
+    color: white;
+    font-weight: 600;
+    transition: 1s;
+}
+.box h1:hover{
+    -webkit-text-stroke: 2px white;
+  color: transparent;
+}
+.box a{
+font-size: 40px;
+text-decoration: none;
+border: 2px solid white;
+border-radius: 2px;
+color: white;
+transition: 1s;
+padding: 5px;
+}
+.box a:hover{
+    background: white;
+    color: black;
+}
+
+
